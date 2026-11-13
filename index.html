@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Font Generator — Cursive, Bold, Aesthetic and Symbol Text</title>
+  <meta name="description" content="Type a phrase and copy it in cursive, bold, aesthetic, and symbol Unicode styles. A free font generator for bios, captions, usernames, and chat.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#f4efe6">
+  <meta property="og:title" content="Font Generator — Cursive, Bold, Aesthetic and Symbol Text">
+  <meta property="og:description" content="Turn plain text into cursive, bold, aesthetic, and symbol styles you can copy and paste.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Font Generator — Cursive, Bold, Aesthetic and Symbol Text">
+  <meta name="twitter:description" content="Turn plain text into cursive, bold, aesthetic, and symbol styles you can copy and paste.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,650&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Font Generator",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "Any",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "description": "Type a phrase and copy it in cursive, bold, aesthetic, and symbol Unicode styles."
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#fonts-output-list">Skip to font styles</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <p class="wordmark">Font Generator</p>
+      <p class="tagline">Type once, then copy a cursive, bold, aesthetic, or symbol version.</p>
+    </div>
+  </header>
+
+  <div class="composer">
+    <div class="wrap composer__inner">
+      <label class="field" for="user-input">
+        <span class="field__label">Your text</span>
+        <textarea id="user-input" class="field__input" rows="2" maxlength="240" placeholder="Type your text" autocomplete="off" spellcheck="false"></textarea>
+      </label>
+      <div class="tabs" role="tablist" aria-label="Font categories">
+        <button class="tab" type="button" role="tab" data-category="all" aria-selected="true">All</button>
+        <button class="tab" type="button" role="tab" data-category="cursive" aria-selected="false">Cursive</button>
+        <button class="tab" type="button" role="tab" data-category="aesthetic" aria-selected="false">Aesthetic</button>
+        <button class="tab" type="button" role="tab" data-category="bold" aria-selected="false">Bold</button>
+        <button class="tab" type="button" role="tab" data-category="symbols" aria-selected="false">Symbols</button>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <section class="gallery-section" aria-labelledby="styles-heading">
+      <div class="wrap">
+        <h2 id="styles-heading" class="visually-hidden">Font styles</h2>
+        <div id="fonts-output-list" class="gallery"></div>
+      </div>
+    </section>
+
+    <section class="seo" aria-labelledby="about-heading">
+      <div class="wrap seo__inner">
+        <h2 id="about-heading">About &amp; How to Use</h2>
+        <p>This font generator restyles a phrase with Unicode letters. The copy you take is still plain text, so it can go into a bio, caption, username, comment, or chat box that would ignore a downloaded font file.</p>
+        <p>Cursive covers script and italic faces. Bold covers heavy serif, sans, and blackletter weights. Aesthetic includes small caps, wide type, tiny superscript, monospace, and flipped text. Symbols wraps letters in circles, squares, parentheses, and boxes.</p>
+
+        <h3>How to use it</h3>
+        <ol>
+          <li>Type in the box at the top. Every card updates as you type.</li>
+          <li>Leave the box empty to see the sample line “Preview Your Font”.</li>
+          <li>Choose All, or narrow the column to Cursive, Aesthetic, Bold, or Symbols.</li>
+          <li>Press Copy and paste the line where you want it. The button turns green when the text is on the clipboard.</li>
+        </ol>
+
+        <h3>What copies well</h3>
+        <p>Letters A to Z and digits 0 to 9 are mapped in every style. Spaces, punctuation, and emoji stay as you typed them. Short names and captions stay readable; a very long line is harder to scan in a chat bubble. Phones draw the same Unicode characters with different fallback fonts, so script and fraktur shift the most between devices.</p>
+        <p>Screen readers may spell mathematical and enclosed characters one by one. Use a plain-text version when the sentence has to stay accessible.</p>
+
+        <h3>Questions</h3>
+        <div class="faq">
+          <details>
+            <summary>Does this install a font on my computer?</summary>
+            <p>No. The page swaps characters for Unicode lookalikes. Nothing is downloaded or installed.</p>
+          </details>
+          <details>
+            <summary>Why does the same style look different on another phone?</summary>
+            <p>The characters are standard, but iOS, Android, and Windows do not share one drawing of script, fraktur, or enclosed letters.</p>
+          </details>
+          <details>
+            <summary>Can I paste the result into Instagram, Discord, or a username?</summary>
+            <p>Most caption and chat fields accept it. Some username forms block unusual characters, so paste a plain version if a signup form rejects the line.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Font Generator · cursive, bold, aesthetic, and symbol text</p>
+    </div>
+  </footer>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Does this install a font on my computer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. The page swaps characters for Unicode lookalikes. Nothing is downloaded or installed."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does the same style look different on another phone?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The characters are standard, but iOS, Android, and Windows do not share one drawing of script, fraktur, or enclosed letters."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I paste the result into Instagram, Discord, or a username?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most caption and chat fields accept it. Some username forms block unusual characters, so paste a plain version if a signup form rejects the line."
+        }
+      }
+    ]
+  }
+  </script>
+  <script src="js/fonts-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
